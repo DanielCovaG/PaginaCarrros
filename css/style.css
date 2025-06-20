@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 42px;
+}
+
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.menu-container {
+    background-image: url(../IMAGENES/banner-bg.jpg);
+    padding: 10px 0; /* Reduce el padding vertical */
+    text-align: center;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+ul.Menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul.Menu li {
+    position: relative;
+    top: 0%;
+    right: 16%;
+    list-style: none;
+    margin: 0 30px;
+    font-size: 26px;
+}
+
+ul.Menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:'Arial', Times, serif;
+    font-weight:bold;
+    transition:0.4s ease-in-out;
+}
+
+ul.Menu li a:hover {
+    color: rgb(0, 255, 179);
+}
+
+.menu-wrapper {
+    position: absolute;
+    top: -25%;
+    left: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Espacio entre el logo y el menú */
+}
+
+.logo {
+    width: 17%;
+    height: auto;
+    border-radius: 10px; /* Estética suave */
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.cont_img{
+    background-image: url(../IMAGENES/banner-bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-position:center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.deportivos{
+    width: 50%;
+    height: 50%;
+}
+
+.deportivos a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #f6f8f8;
+    background-color: #4bc5b8;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.btn_main {
+    position: relative;
+    top: -20%;
+    width: 20%;
+    left: 0%;
+    margin-top: -10px;
+}
+
+.more_bt {
+    width: 170px;
+    float: left;
+    text-decoration: none;
+}
+
+.more_bt a {
+    
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #f6f8f8;
+    background-color: #4bc5b8;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.deportivos h1{
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 27%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagen_dep {
+    position: relative;
+    margin-top: -20px;
+}
+
+.clasicos{
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.clasicos a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #f6f8f8;
+    background-color: #4bc5b8;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.clasicos h1{
+    color: white;
+    position: relative;
+    top: -85%;
+    left: 27%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagen_clas{
+    position: relative;
+    margin-top: -45.57%;
+    right: 5%;
+}
+
+.btn_main2 {
+    position: relative;
+    width: 20%;
+    left: 0%;
+    margin-top: -10%;
+}
+
+.more_bt2 {
+    width: 170px;
+    float: left;
+    text-decoration: none;
+}
+
+.more_bt2 a {
+    
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #f6f8f8;
+    background-color: #4bc5b8;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+}
